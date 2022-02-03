@@ -33,7 +33,7 @@ const HeroModel: HeromodelType = {
   namespace: 'hero',
 
   state: {
-    name: '',
+    name: 'hero',
     heros: [],
   },
 

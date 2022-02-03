@@ -7,15 +7,6 @@ interface PageProps extends ConnectProps {
   hero: HeroModelState;
 }
 
-interface HeroProps {
-  ename: number;
-  cname: string;
-  title: string;
-  new_type: number;
-  hero_type: number;
-  skin_name: string;
-}
-
 const Hero: FC<PageProps> = (props) => {
   // console.log(props.hero);
   // return (
