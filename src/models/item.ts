@@ -12,6 +12,7 @@ interface ItemProp {
 export interface ItemModelState {
   name: string;
   items: ItemProp[];
+  filterKey: number;
 }
 
 export interface ItemModelType {
@@ -34,6 +35,7 @@ const ItemModel: ItemModelType = {
   state: {
     name: 'item',
     items: [],
+    filterKey: 0,
   },
 
   effects: {
